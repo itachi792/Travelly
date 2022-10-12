@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+a {
+    color: antiquewhite;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.main-head {
+    background-color: #131c27;
+    color: white;
+}
+
+.main-head nav {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    min-height: 10vh;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav h1 {
+    flex: 2 1 40rem;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    font-size: 3rem;
+    background-color: #4c6c97;
+    border: none;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color, 0.5s;
+}
+
+button:hover {
+    background-color: #11243d;
+}
+
+
+/*2nd page*/
+
+.location-head {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(img/new-york-page.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.location {
+    width: 90%;
+    margin: auto;
+}
+
+.location h2 {
+    text-decoration: underline;
+    padding: 2rem 0rem;
+}
+
+.location h3 {
+    padding: 4rem 0rem;
+    background: linear-gradient(#131c27, #663b34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*3rd page*/
+
+.benefits-head {
+    min-height: 100vh;
+}
+
+.benefits {
+    background-color: #343c44;
+    min-height: 30vh;
+}
+
+.benefits nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.benefits-head h2 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.benefits-head h3 {
+    font-size: 2.3rem;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.benefits-head h4 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.229), 0px 10px 10px rgba(0, 0, 0, 0.829);
+    min-height: 40vh;
+    margin: 1rem;
+    flex: 1 1 30rem;
+    text-align: center;
+}
+
+.image {
+    background-color: #131c27;
+}
+
+.image img {
+    max-width: 10%;
+    margin: 1rem;
+}
+
+
+/* 4th page */
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(img/contact-mountain.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-wrapper h2 {
+    padding: 0rem 1rem;
+}
+
+.form-wrapper {
+    align-content: center;
+    background: #172230d7;
+    width: 40%;
+    color: white;
+    border-radius: 20px;
+}
+
+.form-wrapper input {
+    padding: 1rem 3rem;
+}
+
+.form-head {
+    text-align: center;
+    padding: 3rem;
+}
+
+.Name {
+    padding: 2rem;
+}
+
+.Email {
+    padding: 2rem;
+}
+
+.form-wrapper button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+
+/*FOOTER*/
+
+.end {
+    background: #131c27;
+    color: white;
+    font-family: "Pattaya", sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*Animation part*/
+
+.cloud {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.cloud-1 {
+    animation: Animation 3s infinite alternate ease-in-out;
+}
+
+.cloud-2 {
+    top: 13%;
+    z-index: -1;
+    animation: Animation 2.8s infinite alternate;
+}
+
+@keyframes Animation {
+    from {
+        transform: translate(10%, -10%);
+    }
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
+
+/*media quaries*/
+
+@media screen and (max-width: 1318px) {
+    .cloud-1 {
+        z-index: -1;
+    }
+    .cloud-2 {
+        z-index: -2;
+    }
+}
+
+@media screen and (max-width: 932px) {
+    html {
+        font-size: 45%;
+    }
+    nav {
+        text-align: center;
+        padding: 2rem;
+    }
+    .location h3 {
+        background: #131c27;
+        opacity: 90%;
+        -webkit-text-fill-color: cornsilk;
+    }
+    .end {
+        text-align: center;
+    }
+    .end h5 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .form-wrapper {
+        width: 100%;
+    }
+}
